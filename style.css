@@ -6,3 +6,11 @@ h2{
 p{
     font-family: Creepster;
 }
+
+button{
+    background-color: rgb(241, 239, 239);
+    size: 200px;
+    border: transparent;
+    font-family: Creepster;
+    margin: 20px;
+}
