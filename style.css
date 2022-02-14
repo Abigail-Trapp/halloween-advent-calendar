@@ -8,6 +8,7 @@ h2{
 
 p{
     font-family: Creepster;
+    font-size: 25px;
     display: flex;
     justify-content: center;
 }
@@ -16,7 +17,12 @@ button{
     background-color: rgb(241, 239, 239);
     border: transparent;
     font-family: Creepster;
+    font-size: 20px;
     margin: 20px;
-    background-color: greenyellow;
-    border: 10px solid green;
+    background: linear-gradient(
+      90deg,
+      rgb(174, 252, 174) 0%,
+      rgb(63, 117, 56) 100%
+    );
+    border: 2px solid green;
 }
