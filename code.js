@@ -5,4 +5,11 @@ for(let i = 0; i < day.length; i++){
     let printOut = document.createElement("button")
     printOut.innerHTML=`${day[i]}`
     days.append(printOut)
+
+    printOut.addEventListener("click", function(){
+        printOut.style.background = 'white'
+        printOut.style.border = 'white'
+        printOut.innerHTML = `<img src='candy.png'/>`
+    })
 }
+
