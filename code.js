@@ -9,7 +9,7 @@ for(let i = 0; i < day.length; i++){
     printOut.addEventListener("click", function(){
         printOut.style.background = 'white'
         printOut.style.border = 'white'
-        printOut.innerHTML = `<img src='candy.png'/>`
+        printOut.innerHTML = `<img src='./images/candy.png'/>`
     })
 }
 
