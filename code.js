@@ -13,3 +13,5 @@ for(let i = 0; i < day.length; i++){
     })
 }
 
+let images = ['./images/candy.png','./images/candy-corn.png']
+
