@@ -9,9 +9,14 @@ for(let i = 0; i < day.length; i++){
     printOut.addEventListener("click", function(){
         printOut.style.background = 'white'
         printOut.style.border = 'white'
-        printOut.innerHTML = `<img src='./images/candy.png'/>`
+        var images = new Array()
+        images[0] = new Image()
+        images[0] =  `<img src='./images/candy.png'/>`
+        images[1] = new Image()
+        images[1] =  `<img src='./images/candy-corn.png'/>`
+        printOut.innerHTML = `${images[Math.floor(Math.random()*images.length)]}`
     })
 }
 
-let images = ['./images/candy.png','./images/candy-corn.png']
+
 
