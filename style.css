@@ -1,4 +1,7 @@
-h2{
+/* body{
+    background-image: url('./images/background.jpg');
+} */
+h2 {
     font-family: Creepster;
     color: orange;
     font-size: 50px;
@@ -6,27 +9,28 @@ h2{
     justify-content: center;
 }
 
-p{
+p {
     font-family: Creepster;
     font-size: 25px;
     display: flex;
     justify-content: center;
 }
 
-button{
-    background-color: rgb(241, 239, 239);
+button {
+    display: inline-block;
+    text-decoration: none;
     border: transparent;
     font-family: Creepster;
     font-size: 20px;
+    padding: 5px 10px;
     margin: 20px;
-    background: linear-gradient(
-      90deg,
-      rgb(174, 252, 174) 0%,
-      rgb(63, 117, 56) 100%
-    );
-    border: 2px solid green;
+    background: linear-gradient(90deg,
+            rgb(174, 252, 174) 0%,
+            rgb(63, 117, 56) 100%);
+    border: 1px solid #95989a;
+
 }
 
-img{
+img {
     width: 30px;
 }

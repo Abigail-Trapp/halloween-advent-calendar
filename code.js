@@ -16,6 +16,8 @@ for(let i = 0; i < day.length; i++){
         images[1] =  `<img src='./images/candy-corn.png'/>`
         images[2] = new Image()
         images[2] = `<img src='./images/bats.jpg'/>`
+        images[3] = new Image()
+        images[3] = `<img src='./images/pumpkin.png'/>`
         printOut.innerHTML = `${images[Math.floor(Math.random()*images.length)]}`
     })
 }
